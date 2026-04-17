@@ -7,6 +7,11 @@ app.get('/', (req, res) => {
   res.send('Hello World!')
 })
 
+app.get ( '/Profile' , (req,res) =>{
+  res.send("hello form profile ) 
+           })
+
 app.listen(process.env.PORT, () => {
   console.log(`Example app listening on port ${port}`)
 })
+
